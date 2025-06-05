@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<feed xml:base="http://community.chocolatey.org/api/v2/" xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices" xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns="http://www.w3.org/2005/Atom">
+  <title type="text">Packages</title>
+  <id>http://community.chocolatey.org/api/v2/Packages</id>
+  <updated>2025-01-12T16:02:43Z</updated>
+  <link rel="self" title="Packages" href="Packages" />
+  <entry>
+    <id>http://community.chocolatey.org/api/v2/Packages(Id='vscode',Version='1.96.2')</id>
+    <title type="text">vscode</title>
+    <summary type="text">Visual Studio Code</summary>
+    <updated>2024-12-20T14:49:09Z</updated>
+    <author>
+      <name>Microsoft</name>
+    </author>
+    <link rel="edit-media" title="V2FeedPackage" href="Packages(Id='vscode',Version='1.96.2')/$value" />
+    <link rel="edit" title="V2FeedPackage" href="Packages(Id='vscode',Version='1.96.2')" />
+    <category term="CCR.Website.V2FeedPackage" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="application/zip" src="https://community.chocolatey.org/api/v2/package/vscode/1.96.2" />
+    <m:properties xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices">
+      <d:Version>1.96.2</d:Version>
+      <d:Title>Visual Studio Code</d:Title>
+      <d:Description>Build and debug modern web and cloud applications. Code is free and available on your favorite platform - Linux, Mac OSX, and Windows.
+
+## Features
+
+* **Meet IntelliSense:** Go beyond syntax highlighting and autocomplete with IntelliSense, which provides smart completions based on variable types, function definitions, and imported modules.
+* **Print statement debugging is a thing of the past:** Debug code right from the editor. Launch or attach to your running apps and debug with break points, call stacks, and an interactive console.
+* **Git commands built-in:** Working with Git has never been easier. Review diffs, stage files, and make commits right from the editor. Push and pull from any hosted Git service.
+* **Extensible and customizable:** Want even more features? Install extensions to add new languages, themes, debuggers, and to connect to additional services. Extensions run in separate processes, ensuring they won't slow down your editor.
+
+## Package parameters
+
+* `/NoDesktopIcon` - Don't add a desktop icon.
+* `/NoQuicklaunchIcon` - Don't add an icon to the QuickLaunch area.
+* `/NoContextMenuFiles` - Don't add an _Open with Code_ entry to the context menu for files.
+* `/NoContextMenuFolders` - Dont't add an _Open with Code_ entry to the context menu for folders.
+* `/DontAddToPath` - Don't add Visual Studio Code to the system PATH.
+
+Example: `choco install vscode --params "/NoDesktopIcon /DontAddToPath"`
+
+## Notes
+
+* The package uses default install options except that it adds context menu entries and Visual Studio Code isn't started after installation.
+* For disabling the auto-update functionality see the [Visual Studio Code Auto Update Deactivation package](https://chocolatey.org/packages/visualstudiocode-disableautoupdate).
+* **If the package is out of date please check [Version History](#versionhistory) for the latest submitted version. If you have a question, please ask it in [Chocolatey Community Package Discussions](https://github.com/chocolatey-community/chocolatey-packages/discussions) or raise an issue on the [Chocolatey Community Packages Repository](https://github.com/chocolatey-community/chocolatey-packages/issues) if you have problems with the package. Disqus comments will generally not be responded to.**
+
+![screenshot](https://cdn.jsdelivr.net/gh/chocolatey-community/chocolatey-coreteampackages@6dc510f16b69a2134e901f2576e991c462a18e9b/automatic/vscode/screenshot.png)</d:Description>
+      <d:Tags>microsoft visualstudiocode vscode development editor ide javascript typescript admin foss cross-platform</d:Tags>
+      <d:Copyright></d:Copyright>
+      <d:Created m:type="Edm.DateTime">2024-12-20T00:19:34.353</d:Created>
+      <d:Dependencies>vscode.install:[1.96.2]:</d:Dependencies>
+      <d:DownloadCount m:type="Edm.Int32">7553877</d:DownloadCount>
+      <d:VersionDownloadCount m:type="Edm.Int32">24</d:VersionDownloadCount>
+      <d:GalleryDetailsUrl>https://community.chocolatey.org/packages/vscode/1.96.2</d:GalleryDetailsUrl>
+      <d:ReportAbuseUrl>https://community.chocolatey.org/package/ReportAbuse/vscode/1.96.2</d:ReportAbuseUrl>
+      <d:IconUrl>https://cdn.jsdelivr.net/gh/chocolatey-community/chocolatey-packages@00a000c7e5d8cc0d8416468e164eef281f843bff/icons/vscode.png</d:IconUrl>
+      <d:IsLatestVersion m:type="Edm.Boolean">true</d:IsLatestVersion>
+      <d:IsAbsoluteLatestVersion m:type="Edm.Boolean">true</d:IsAbsoluteLatestVersion>
+      <d:IsPrerelease m:type="Edm.Boolean">false</d:IsPrerelease>
+      <d:Language></d:Language>
+      <d:Published m:type="Edm.DateTime">2024-12-20T00:19:34.353</d:Published>
+      <d:LicenseUrl>https://code.visualstudio.com/License</d:LicenseUrl>
+      <d:RequireLicenseAcceptance m:type="Edm.Boolean">false</d:RequireLicenseAcceptance>
+      <d:PackageHash>1tYx8DVQk1VP27PMLXEKC3dioy06gBQ1OEB9B/3oWc1QnmuyFLayxzAqB+Y+zql4ZenQ9iIZJk4kkklSqD+zkw==</d:PackageHash>
+      <d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm>
+      <d:PackageSize m:type="Edm.Int64">4319</d:PackageSize>
+      <d:ProjectUrl>https://code.visualstudio.com/</d:ProjectUrl>
+      <d:ReleaseNotes>https://code.visualstudio.com/Updates</d:ReleaseNotes>
+      <d:ProjectSourceUrl>https://github.com/Microsoft/vscode</d:ProjectSourceUrl>
+      <d:PackageSourceUrl>https://github.com/chocolatey-community/chocolatey-packages/tree/master/automatic/vscode</d:PackageSourceUrl>
+      <d:DocsUrl>https://code.visualstudio.com/docs</d:DocsUrl>
+      <d:MailingListUrl></d:MailingListUrl>
+      <d:BugTrackerUrl>https://github.com/Microsoft/vscode/issues</d:BugTrackerUrl>
+      <d:IsApproved m:type="Edm.Boolean">true</d:IsApproved>
+      <d:PackageStatus>Approved</d:PackageStatus>
+      <d:PackageSubmittedStatus>Ready</d:PackageSubmittedStatus>
+      <d:PackageTestResultUrl>https://gist.github.com/choco-bot/756d3f697484055eb0c5a640b851bf6d</d:PackageTestResultUrl>
+      <d:PackageTestResultStatus>Passing</d:PackageTestResultStatus>
+      <d:PackageTestResultStatusDate m:type="Edm.DateTime">2024-12-20T09:50:01.14</d:PackageTestResultStatusDate>
+      <d:PackageValidationResultStatus>Passing</d:PackageValidationResultStatus>
+      <d:PackageValidationResultDate m:type="Edm.DateTime">2024-12-20T09:35:23.78</d:PackageValidationResultDate>
+      <d:PackageCleanupResultDate m:type="Edm.DateTime" m:null="true"></d:PackageCleanupResultDate>
+      <d:PackageReviewedDate m:type="Edm.DateTime">2024-12-20T13:49:55.05</d:PackageReviewedDate>
+      <d:PackageApprovedDate m:type="Edm.DateTime">2024-12-20T13:49:55.05</d:PackageApprovedDate>
+      <d:PackageReviewer></d:PackageReviewer>
+      <d:IsDownloadCacheAvailable m:type="Edm.Boolean">false</d:IsDownloadCacheAvailable>
+      <d:DownloadCacheStatus>Checked</d:DownloadCacheStatus>
+      <d:DownloadCacheDate m:type="Edm.DateTime">2024-12-20T14:52:09.21</d:DownloadCacheDate>
+      <d:DownloadCache></d:DownloadCache>
+      <d:PackageScanStatus>NotFlagged</d:PackageScanStatus>
+      <d:PackageScanResultDate m:type="Edm.DateTime">2024-12-20T13:49:55.05</d:PackageScanResultDate>
+      <d:PackageScanFlagResult>None</d:PackageScanFlagResult>
+    </m:properties>
+  </entry>
+  <link rel="next" href="http://community.chocolatey.org/api/v2/Packages?$filter=(tolower(Id)%20eq%20'vscode')%20and%20IsLatestVersion&amp;$skiptoken='8456.089','vscode'" />
+</feed>
